@@ -7,6 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: '#F24C62',
+        secondary: '#49C6DD',
+        success: '#3CB371',
+        danger: '#DC143C',
+        warning: '#FFD700',
+        info: '#00BFFF',
+      },
     },
   },
   plugins: [],
