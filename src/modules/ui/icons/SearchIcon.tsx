@@ -5,8 +5,10 @@ export default function SearchIcon({ className }: { className?: string }) {
       fill="none"
       viewBox="0 0 24 24"
       strokeWidth={1.5}
-      stroke="currentColor"
+      stroke="black"
       className={className}
+      data-testid="search-icon"
+      width={24}
     >
       <path
         strokeLinecap="round"
